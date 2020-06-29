@@ -1,10 +1,10 @@
 {
   "name": "jwt-auth-mongodb",
   "version": "1.0.0",
-  "description": "JWT Authentication & Role-Based Authorization",
+  "description": "Node & MongoDB JWT Authentication with Role-Based Authorization",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "format": "prettier-eslint '.eslintrc.js' --write",
     "formatto": "prettier-eslint 'server/**/*.{js,json}' --write",
     "test": "echo \"Error: no test specified\" && exit 1"
